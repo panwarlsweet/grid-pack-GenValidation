@@ -9,7 +9,7 @@ process.maxEvents = cms.untracked.PSet( input = cms.untracked.int32(-1) )
 process.source = cms.Source("PoolSource",
                                 # replace 'myfile.root' with the source file you want to use
                                 fileNames = cms.untracked.vstring(
-            'file:/afs/cern.ch/work/l/lata/MC/CMSSW_9_3_6_patch2/src/HIG-RunIIFall17wmLHEGS-03593.root'
+            'file:/afs/cern.ch/work/l/lata/MC/HIG-RunIIFall17wmLHEGS-00429.root'
                 )
                             )
 
